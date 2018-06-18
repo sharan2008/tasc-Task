@@ -1,0 +1,28 @@
+{
+  "name": "travistask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.6",
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.2",
+    "@types/node": "^10.3.3",
+    "aws-sdk-mock": "^3.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "serverless-offline": "^3.25.4",
+    "serverless-plugin-typescript": "^1.1.5",
+    "ts-node": "^6.1.1",
+    "typings": "^2.1.1"
+  },
+  "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "uuid": "^3.2.1"
+  }
+}
